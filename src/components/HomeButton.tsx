@@ -1,15 +1,20 @@
-import React from 'react';
+import React from "react";
 import Link from "next/link";
 
 interface HomeButtonProps {
-    href: string;
-    icon: React.ReactNode;
-    'aria-label': string;
+  href: string;
+  icon: React.ReactNode;
+  "aria-label": string;
+  className?: string;
 }
 
-const HomeButton = ({ href, icon, 'aria-label': ariaLabel}: HomeButtonProps) => {
-    
-    const buttonBaseClasses = `
+const HomeButton = ({
+  href,
+  icon,
+  className,
+  "aria-label": ariaLabel,
+}: HomeButtonProps) => {
+  const buttonBaseClasses = `
         group 
         flex 
         items-center 
@@ -26,19 +31,19 @@ const HomeButton = ({ href, icon, 'aria-label': ariaLabel}: HomeButtonProps) => 
         hover:brightness-80 hover:shadow-lg hover:scale-105
     `;
 
-    return(
-        <Link
-            href={href}
-            className={buttonBaseClasses.trim()}
-            aria-label={ariaLabel}
-        >
-        <div className = {`
+  const combinedClasses = `${buttonBaseClasses} ${className || ""}`;
+
+  return (
+    <Link href={href} className={combinedClasses.trim()} aria-label={ariaLabel}>
+      <div
+        className={`
             text-[#FFE5B4]
-            `}>
+            `}
+      >
         {icon}
-        </div>
-        </Link>
-    );
+      </div>
+    </Link>
+  );
 };
 
 export default HomeButton;
