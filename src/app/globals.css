@@ -18,7 +18,7 @@
 }
 
 body {
-  background-image: url("public/Fimages/PinkLilyBG.png");
+  background-image: url("/fimages/PinkLilyBG.png");
   background-repeat: repeat;
   background-size: auto;
 
