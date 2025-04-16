@@ -23,7 +23,7 @@ export default function Home() {
         `}
       >
         <HomeButton
-          href="/picks"
+          href="/game"
           icon={
             <GameIcon className="w-20 h-20" stroke="#D8A39D" strokeWidth=".1" />
           }
