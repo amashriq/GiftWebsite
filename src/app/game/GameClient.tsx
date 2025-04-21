@@ -72,13 +72,7 @@ export default function GameClient({ goodImages, badImages }: GameClientProps) {
     setSelectedImages(new Set());
     setGameState("playing");
     setMessage("Pick all the good pictures!");
-  }, [
-    selectGameImages,
-    goodImages.length,
-    badImages.length,
-    IMAGES_PER_TYPE,
-    TOTAL_IMAGES_PER_ROUND,
-  ]);
+  }, [selectGameImages, goodImages.length, badImages.length]);
 
   useEffect(() => {
     setupNewGame();
@@ -113,7 +107,7 @@ export default function GameClient({ goodImages, badImages }: GameClientProps) {
   return (
     <div className="flex w-full flex-col items-center p-4">
       <h1 className="text-3x1 font-bold mb-4"> Game Time!</h1>
-      <p className="mb-6 text-lg text-center"> hiiii</p>
+      <p className="mb-6 text-lg text-center">{message}</p>
 
       <div className="flex flex-wrap justify-center items-center gap-4 mb-8 w-full">
         {currentImages.map((img) => (
