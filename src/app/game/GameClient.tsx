@@ -39,7 +39,7 @@ export default function GameClient({ goodImages, badImages }: GameClientProps) {
   const [gameState, setGameState] = useState<"playing" | "won" | "lost">(
     "playing"
   );
-  const [message, setMessage] = useState<string>("Pick all the good pictures!");
+  //const [message, setMessage] = useState<string>("Pick all the good pictures!");
   const [isFadingOut, setIsFadingOut] = useState(false);
 
   const TOTAL_IMAGES_PER_ROUND = 10; //subject to change
@@ -61,9 +61,9 @@ export default function GameClient({ goodImages, badImages }: GameClientProps) {
       goodImages.length < IMAGES_PER_TYPE ||
       badImages.length < IMAGES_PER_TYPE
     ) {
-      setMessage(
-        `Not enough images available for a ${IMAGES_PER_TYPE}-${IMAGES_PER_TYPE} split.`
-      );
+      //setMessage(
+      //  `Not enough images available for a ${IMAGES_PER_TYPE}-${IMAGES_PER_TYPE} split.`
+      //);
       setGameState("lost");
       setCurrentImages([]);
       setSelectedImages(new Set());
@@ -74,8 +74,8 @@ export default function GameClient({ goodImages, badImages }: GameClientProps) {
     setCurrentImages(newImages);
     setSelectedImages(new Set());
     setGameState("playing");
-    setMessage("Pick all the good pictures!");
-  }, [selectGameImages, goodImages.length, badImages.length]);
+    //setMessage("Pick all the good pictures!");
+  }, [selectGameImages, IMAGES_PER_TYPE, goodImages.length, badImages.length]);
 
   useEffect(() => {
     setupNewGame();
@@ -106,10 +106,10 @@ export default function GameClient({ goodImages, badImages }: GameClientProps) {
     setTimeout(() => {
       if (winConditionMet) {
         setGameState("won");
-        setMessage("Congratulations! You picked all the good pictures!");
+        //setMessage("Congratulations! You picked all the good pictures!");
       } else {
         setGameState("lost");
-        setMessage("maybe next time! You picked some bad pictures."); //diff messages based on how many she chose
+        //setMessage("maybe next time! You picked some bad pictures."); //diff messages based on how many she chose
       }
     }, transitionDuration);
   };
