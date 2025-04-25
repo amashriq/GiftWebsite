@@ -121,7 +121,7 @@ export default function GameClient({ goodImages, badImages }: GameClientProps) {
   }, [gameState]);
 
   return (
-    <div className="flex h-[95vh] w-[vw] flex-col justify-center items-center p-6 mt-10">
+    <div className="flex h-[95vh] w-full flex-col justify-center items-center p-6 mt-10">
       {gameState === "playing" ? (
         <>
           <div
