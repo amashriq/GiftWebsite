@@ -1,5 +1,3 @@
-import { Variants, Transition } from "framer-motion";
-
 export const pageVariants = {
   initial: { opacity: 0, y: 15 },
   in: { opacity: 1, y: 0 },

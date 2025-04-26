@@ -30,7 +30,7 @@ export default function InstructionsUI({ onStartGame }: InstructionsUIProps) {
         max-w-[800px]`}
       >
         <h2 className="text-4xl text-[#4B4B4B] [text-shadow:0px_1px_2px_rgba(0,0,0,0.1)] font-bold">
-          "Instructions"
+          Instructions
         </h2>
         <p className="text-3xl text-[#4B4B4B] [text-shadow:0px_1px_2px_rgba(0,0,0,0.1)] font-semibold break-words">
           {Instructions}

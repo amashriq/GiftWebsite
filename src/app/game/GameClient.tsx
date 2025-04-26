@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useCallback } from "react";
 import PlayingUI from "@/components/GameUIs/PlayingUI";
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 import ResultsUI from "@/components/GameUIs/ResultsUI";
 import InstructionsUI from "@/components/GameUIs/InstructionsUI";
 

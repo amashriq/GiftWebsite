@@ -9,29 +9,29 @@ import { pageVariants, pageTransitions } from "@/lib/animations";
 
 export default function Home() {
   return (
-    <AnimatePresence>
-      <motion.main
-        variants={pageVariants}
-        transition={pageTransitions}
-        initial="initial"
-        animate="in"
-        exit="out"
-        className={`
+    <motion.main
+      variants={pageVariants}
+      transition={pageTransitions}
+      initial="initial"
+      animate="in"
+      exit="out"
+      className={`
       flex
       min-h-screen
       flex-col
       items-center
       justify-center`}
-      >
-        <div
-          className={`
+    >
+      <div
+        className={`
         flex
         flex-wrap
         justify-center
         gap-4
         w-1/2
         `}
-        >
+      >
+        <AnimatePresence>
           <HomeButton
             href="/game"
             icon={
@@ -65,8 +65,8 @@ export default function Home() {
             }
             aria-label="letter"
           />
-        </div>
-      </motion.main>
-    </AnimatePresence>
+        </AnimatePresence>
+      </div>
+    </motion.main>
   );
 }
