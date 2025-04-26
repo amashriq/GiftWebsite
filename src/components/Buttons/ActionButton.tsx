@@ -22,7 +22,7 @@ const ActionButton = ({
         h-15 w-30
         bg-[#A8BBA8] 
         rounded-xl 
-        border-2 border-[#97A897] 
+         
         shadow-md 
         cursor-pointer 
         duration-300 ease-in-out 

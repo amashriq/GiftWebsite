@@ -2,7 +2,7 @@
 
 import React from "react";
 import { usePathname } from "next/navigation";
-import HomeButton from "@/components/HomeButton";
+import HomeButton from "@/components/Buttons/HomeButton";
 import HomeIcon from "@/components/icons/HomeIcon";
 
 export default function BackButton() {
