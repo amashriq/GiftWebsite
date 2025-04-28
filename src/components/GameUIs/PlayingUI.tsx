@@ -31,7 +31,7 @@ export default function PlayingUI({
       exit="out"
       variants={pageVariants}
       transition={pageTransitions}
-      className="flex flex-col h-[90vh] justify-center items-center px-20 pt-20 gap-10"
+      className="flex flex-col h-full justify-center items-center px-20 pt-20 gap-8"
     >
       <div className={`flex flex-wrap justify-center items-center gap-10`}>
         {currentImages.map((img) => (

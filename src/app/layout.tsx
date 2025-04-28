@@ -25,7 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` antialised ${ebGaramond.variable} font-serif`}>
+      <body
+        className={`overflow-x-hidden antialised ${ebGaramond.variable} font-serif`}
+      >
         <BackButton />
         <main>{children}</main>
       </body>

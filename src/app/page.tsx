@@ -33,6 +33,7 @@ export default function Home() {
       >
         <AnimatePresence>
           <HomeButton
+            key="game"
             href="/game"
             icon={
               <GameIcon
@@ -44,6 +45,7 @@ export default function Home() {
             aria-label="Game"
           />
           <HomeButton
+            key="memories"
             href="/memories"
             icon={
               <MemoriesIcon
@@ -55,6 +57,7 @@ export default function Home() {
             aria-label="Memories"
           />
           <HomeButton
+            key="letter"
             href="/letter"
             icon={
               <LetterIcon

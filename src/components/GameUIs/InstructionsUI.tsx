@@ -19,12 +19,13 @@ export default function InstructionsUI({ onStartGame }: InstructionsUIProps) {
       initial="initial"
       animate="in"
       exit="out"
-      className="flex flex-col justify-center items-center w-full h-[90vh] gap-10 animate-fade-in"
+      className="flex flex-col justify-center items-center w-full min-h-[95vh] gap-10"
     >
       <div
-        className={`p-8
+        className={`
+        p-8
         bg-[#F9F5EF]/90
-        rounded-lg
+        rounded-xl
         shadow-xl
         text-center
         max-w-[800px]`}

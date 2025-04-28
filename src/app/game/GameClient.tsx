@@ -39,7 +39,7 @@ export default function GameClient({ goodImages, badImages }: GameClientProps) {
   const [selectedImages, setSelectedImages] = useState<Set<string>>(new Set());
   const [gameState, setGameState] = useState<
     "playing" | "won" | "lost" | "instructions"
-  >("playing");
+  >("instructions");
 
   const TOTAL_IMAGES_PER_ROUND = 10; //subject to change
   const IMAGES_PER_TYPE = TOTAL_IMAGES_PER_ROUND / 2;
@@ -148,7 +148,7 @@ export default function GameClient({ goodImages, badImages }: GameClientProps) {
     }
   };
   return (
-    <div className="flex flex-grow w-full flex-col justify-center items-center p-4 md:p-8 overflow-hidden">
+    <div className="flex flex-grow w-full flex-col justify-center items-center p-4 overflow-hidden">
       <AnimatePresence mode="wait">{renderContent()}</AnimatePresence>
     </div>
   );

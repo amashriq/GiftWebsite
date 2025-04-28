@@ -46,7 +46,7 @@ export default function ResultsUI({
       <div
         className={`p-8
         ${bgColor}
-        rounded-lg
+        rounded-xl
         shadow-xl
         text-center
         max-w-[800px]`}

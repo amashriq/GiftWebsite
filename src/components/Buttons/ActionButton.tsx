@@ -5,12 +5,14 @@ interface ActionButtonProps {
   icon: React.ReactNode;
   "aria-label": string;
   className?: string;
+  disabled?: boolean;
 }
 
 const ActionButton = ({
   onClick,
   icon,
   className,
+  disabled,
   "aria-label": ariaLabel,
 }: ActionButtonProps) => {
   const buttonBaseClasses = `
@@ -21,8 +23,7 @@ const ActionButton = ({
         p-4 
         h-15 w-30
         bg-[#A8BBA8] 
-        rounded-xl 
-         
+        rounded-xl
         shadow-md 
         cursor-pointer 
         duration-300 ease-in-out 
@@ -31,7 +32,13 @@ const ActionButton = ({
         hover:brightness-80 hover:shadow-lg hover:scale-105
     `;
 
-  const combinedClasses = `${buttonBaseClasses} ${className || ""}`;
+  const disabledClasses = disabled
+    ? "opacity-0 cursor-not-allowed brightness-75 scale-100 hover:scale-100 hover:brightness-75"
+    : "";
+
+  const combinedClasses = `${buttonBaseClasses} ${disabledClasses} ${
+    className || ""
+  }`;
 
   return (
     <button
