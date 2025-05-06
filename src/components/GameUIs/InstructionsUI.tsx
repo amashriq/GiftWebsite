@@ -24,7 +24,7 @@ export default function InstructionsUI({ onStartGame }: InstructionsUIProps) {
       <div
         className={`
         p-8
-        bg-[#F9F5EF]/1
+        bg-[#F9F5EF]/90
         rounded-xl
         shadow-xl
         text-center
