@@ -4,7 +4,7 @@ import React, { useState, useMemo } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { eventsData, MemoryEvent, MemoryImage } from "@/lib/memories";
+import { eventsData } from "@/lib/memories";
 import ActionButton from "@/components/Buttons/ActionButton";
 import GameIcon from "@/components/icons/GameIcon";
 
