@@ -208,6 +208,63 @@ export const eventsData: MemoryEvent[] = [
   },
 
   {
+    id: "10",
+    title: "Tattoo",
+    eventCaption: "I love you",
+    images: [
+      {
+        id: "/images/memoriesImages/tattoo/a1.jpg",
+        src: "/images/memoriesImages/tattoo/a1.jpg",
+        alt: "pic",
+        caption: "The way she poses is just so tough.",
+        videoSrc: "/images/memoriesImages/tattoo/a1.mp4",
+      },
+      {
+        id: "/images/memoriesImages/tattoo/a2.jpg",
+        src: "/images/memoriesImages/tattoo/a2.jpg",
+        alt: "pic",
+        caption: "peace.",
+        videoSrc: "/images/memoriesImages/tattoo/a2.mp4",
+      },
+      {
+        id: "/images/memoriesImages/tattoo/a3.jpg",
+        src: "/images/memoriesImages/tattoo/a3.jpg",
+        alt: "pic",
+        caption: "And a lot of UNDERBOOOOB.",
+        videoSrc: "/images/memoriesImages/tattoo/a3.mp4",
+      },
+      {
+        id: "/images/memoriesImages/tattoo/a4.jpg",
+        src: "/images/memoriesImages/tattoo/a4.jpg",
+        alt: "pic",
+        caption: "Try not to laugh gang.",
+        videoSrc: "/images/memoriesImages/tattoo/a4.mp4",
+      },
+      {
+        id: "/images/memoriesImages/tattoo/a5.jpg",
+        src: "/images/memoriesImages/tattoo/a5.jpg",
+        alt: "pic",
+        caption: "Tattoo artist was such a stand up guy wasn't he.",
+        videoSrc: "/images/memoriesImages/tattoo/a5.mp4",
+      },
+      {
+        id: "/images/memoriesImages/tattoo/a6.jpg",
+        src: "/images/memoriesImages/tattoo/a6.jpg",
+        alt: "pic",
+        caption: "And tattoo finished! Lilies, so pretty.",
+        videoSrc: "/images/memoriesImages/tattoo/a6.mp4",
+      },
+      {
+        id: "/images/memoriesImages/tattoo/a7.jpg",
+        src: "/images/memoriesImages/tattoo/a7.jpg",
+        alt: "pic",
+        caption:
+          "Who even is this? Why are they sitting in your car? Why does the car have no bumper?",
+      },
+    ],
+  },
+
+  {
     id: "3",
     title: "Parkside Visit",
     eventCaption: "I love you",
@@ -331,6 +388,756 @@ export const eventsData: MemoryEvent[] = [
 
   {
     id: "5",
+    title: "New Year's Eve",
+    eventCaption: "I love you",
+    images: [
+      {
+        id: "/images/memoriesImages/nye/a1.JPEG",
+        src: "/images/memoriesImages/nye/a1.JPEG",
+        alt: "pic",
+        caption:
+          "Hotpot expert adeeb cooks up for the family. So blessed to be able to cook for my girl.",
+        videoSrc: "/images/memoriesImages/nye/a1.mp4",
+      },
+      {
+        id: "/images/memoriesImages/nye/a2.JPEG",
+        src: "/images/memoriesImages/nye/a2.JPEG",
+        alt: "pic",
+        caption: "And he's just so kawaii isn't he.",
+        videoSrc: "/images/memoriesImages/nye/a2.mp4",
+      },
+      {
+        id: "/images/memoriesImages/nye/a3.JPG",
+        src: "/images/memoriesImages/nye/a3.JPG",
+        alt: "pic",
+        caption: "The picture sitting right on my desk. Love you.",
+      },
+      {
+        id: "/images/memoriesImages/nye/a4.jpg",
+        src: "/images/memoriesImages/nye/a4.jpg",
+        alt: "pic",
+        caption: "Caroline get's lit and dances at the bar.",
+      },
+      {
+        id: "/images/memoriesImages/nye/a5.JPEG",
+        src: "/images/memoriesImages/nye/a5.JPEG",
+        alt: "pic",
+        caption: "2025 hea-",
+      },
+      {
+        id: "/images/memoriesImages/nye/a6.JPEG",
+        src: "/images/memoriesImages/nye/a6.JPEG",
+        alt: "pic",
+        caption: "She's so chill. NCaroline.",
+      },
+      {
+        id: "/images/memoriesImages/nye/a7.jpg",
+        src: "/images/memoriesImages/nye/a7.jpg",
+        alt: "pic",
+        caption: "Guess who was okay after this and who wasn't.",
+      },
+      {
+        id: "/images/memoriesImages/nye/a8.JPEG",
+        src: "/images/memoriesImages/nye/a8.JPEG",
+        alt: "pic",
+        caption: "Second time's the charm!",
+      },
+      {
+        id: "/images/memoriesImages/nye/a10.JPEG",
+        src: "/images/memoriesImages/nye/a10.JPEG",
+        alt: "pic",
+        caption: "I went outta control the next morning.",
+      },
+      {
+        id: "/images/memoriesImages/nye/a11.JPG",
+        src: "/images/memoriesImages/nye/a11.JPG",
+        alt: "pic",
+        caption: "This is some dynamic duo shit. We should make a team.",
+      },
+    ],
+  },
+
+  {
+    id: "6",
+    title: "Music",
+    eventCaption: "I love you",
+    images: [
+      {
+        id: "/images/memoriesImages/music/a1.PNG",
+        src: "/images/memoriesImages/music/a1.PNG",
+        alt: "pic",
+        caption:
+          "Up three percent since then! Me and my bitch, we be off them drugs.",
+      },
+      {
+        id: "/images/memoriesImages/music/a2.PNG",
+        src: "/images/memoriesImages/music/a2.PNG",
+        alt: "pic",
+        caption: "This might've been a sign.",
+      },
+    ],
+  },
+
+  {
+    id: "7",
+    title: "Partyaline",
+    eventCaption: "I love you",
+    images: [
+      {
+        id: "/images/memoriesImages/partyaline/a1.JPEG",
+        src: "/images/memoriesImages/partyaline/a1.JPEG",
+        alt: "pic",
+        caption: "Absolutely wicked choice of alc.",
+      },
+      {
+        id: "/images/memoriesImages/partyaline/a2.JPEG",
+        src: "/images/memoriesImages/partyaline/a2.JPEG",
+        alt: "pic",
+        caption: "What going out on Monday does to someone.",
+      },
+      {
+        id: "/images/memoriesImages/partyaline/a3.JPEG",
+        src: "/images/memoriesImages/partyaline/a3.JPEG",
+        alt: "pic",
+        caption: "Body tea and bikini top eats. Sorority Caroline is here!",
+      },
+      {
+        id: "/images/memoriesImages/partyaline/a4.JPEG",
+        src: "/images/memoriesImages/partyaline/a4.JPEG",
+        alt: "pic",
+        caption: "nice tongue.",
+      },
+      {
+        id: "/images/memoriesImages/partyaline/a5.JPEG",
+        src: "/images/memoriesImages/partyaline/a5.JPEG",
+        alt: "pic",
+        caption: "First time we see grumpyline. I wonder why you're so upset.",
+      },
+      {
+        id: "/images/memoriesImages/partyaline/a6.JPEG",
+        src: "/images/memoriesImages/partyaline/a6.JPEG",
+        alt: "pic",
+        caption: "Yayy happy and I love the bangs!",
+      },
+      {
+        id: "/images/memoriesImages/partyaline/a7.JPEG",
+        src: "/images/memoriesImages/partyaline/a7.JPEG",
+        alt: "pic",
+        caption:
+          "Such a silly little picture. Really liking the accessories. Sunglasses, bracelets, and the bag.",
+      },
+      {
+        id: "/images/memoriesImages/partyaline/a8.png",
+        src: "/images/memoriesImages/partyaline/a8.png",
+        alt: "pic",
+        caption: "Didn't even see the red.",
+      },
+      {
+        id: "/images/memoriesImages/partyaline/a9.JPEG",
+        src: "/images/memoriesImages/partyaline/a9.JPEG",
+        alt: "pic",
+        caption: "Who's dick is that.",
+      },
+      {
+        id: "/images/memoriesImages/partyaline/a10.JPEG",
+        src: "/images/memoriesImages/partyaline/a10.JPEG",
+        alt: "pic",
+        caption: "Who is Adeed.",
+      },
+      {
+        id: "/images/memoriesImages/partyaline/a11.JPEG",
+        src: "/images/memoriesImages/partyaline/a11.JPEG",
+        alt: "pic",
+        caption:
+          "Really liked these devil horns. Hope I see them again one day.",
+      },
+      {
+        id: "/images/memoriesImages/partyaline/a12.JPEG",
+        src: "/images/memoriesImages/partyaline/a12.JPEG",
+        alt: "pic",
+        caption: "Good censor on the d, now it really does look like my name!",
+        videoSrc: "/images/memoriesImages/partyaline/a12.mp4",
+      },
+      {
+        id: "/images/memoriesImages/partyaline/a13.JPEG",
+        src: "/images/memoriesImages/partyaline/a13.JPEG",
+        alt: "pic",
+        caption: "Not even a bad look.",
+        videoSrc: "/images/memoriesImages/partyaline/a13.mp4",
+      },
+      {
+        id: "/images/memoriesImages/partyaline/a14.JPEG",
+        src: "/images/memoriesImages/partyaline/a14.JPEG",
+        alt: "pic",
+        caption: "Sucks that you're cleaning it but what a fire vid.",
+        videoSrc: "/images/memoriesImages/partyaline/a14.mp4",
+      },
+      {
+        id: "/images/memoriesImages/partyaline/a15.JPG",
+        src: "/images/memoriesImages/partyaline/a15.JPG",
+        alt: "pic",
+        caption: "My tube top queen. Fits always on point.",
+      },
+      {
+        id: "/images/memoriesImages/partyaline/a16.jpg",
+        src: "/images/memoriesImages/partyaline/a16.jpg",
+        alt: "pic",
+        caption:
+          '"does he remember who I am?" "Duh." We should have seen the signs.',
+        videoSrc: "/images/memoriesImages/partyaline/a16.mp4",
+      },
+    ],
+  },
+
+  {
+    id: "8",
+    title: "First Visit",
+    eventCaption: "I love you",
+    images: [
+      {
+        id: "/images/memoriesImages/firstVisit/a1.JPEG",
+        src: "/images/memoriesImages/firstVisit/a1.JPEG",
+        alt: "pic",
+        caption:
+          "So glad to be in the north. That's why I look so happy. I love the cold!",
+      },
+      {
+        id: "/images/memoriesImages/firstVisit/a2.JPEG",
+        src: "/images/memoriesImages/firstVisit/a2.JPEG",
+        alt: "pic",
+        caption:
+          "Really good form with the brushing. I bet your teeth are super clean.",
+        videoSrc: "/images/memoriesImages/firstVisit/a2.mp4",
+      },
+      {
+        id: "/images/memoriesImages/firstVisit/a3.JPG",
+        src: "/images/memoriesImages/firstVisit/a3.JPG",
+        alt: "pic",
+        caption: "😛",
+      },
+      {
+        id: "/images/memoriesImages/firstVisit/a4.JPG",
+        src: "/images/memoriesImages/firstVisit/a4.JPG",
+        alt: "pic",
+        caption:
+          "This is one of my favorite pictures of us. It might be my favorite actually. Really love it when you're all over me.",
+      },
+      {
+        id: "/images/memoriesImages/firstVisit/a5.JPEG",
+        src: "/images/memoriesImages/firstVisit/a5.JPEG",
+        alt: "pic",
+        caption: "Always happy to see me aren't you.",
+        videoSrc: "/images/memoriesImages/firstVisit/a5.mp4",
+      },
+      {
+        id: "/images/memoriesImages/firstVisit/a6.JPG",
+        src: "/images/memoriesImages/firstVisit/a6.JPG",
+        alt: "pic",
+        caption: "Didn't flick it :(",
+      },
+      {
+        id: "/images/memoriesImages/firstVisit/a7.JPEG",
+        src: "/images/memoriesImages/firstVisit/a7.JPEG",
+        alt: "pic",
+        caption:
+          "Hate how I look but I bet you don't so I'll leave this here. Practice makes perfect!",
+        videoSrc: "/images/memoriesImages/firstVisit/a7.mp4",
+      },
+      {
+        id: "/images/memoriesImages/firstVisit/a8.JPEG",
+        src: "/images/memoriesImages/firstVisit/a8.JPEG",
+        alt: "pic",
+        caption: "Hecka cute. Weren't even dating yet.",
+      },
+      {
+        id: "/images/memoriesImages/firstVisit/a9.JPEG",
+        src: "/images/memoriesImages/firstVisit/a9.JPEG",
+        alt: "pic",
+        caption:
+          "Always thinking thinking thinking. Do you ever wander what it is that's in my mind?",
+        videoSrc: "/images/memoriesImages/firstVisit/a9.mp4",
+      },
+      {
+        id: "/images/memoriesImages/firstVisit/a10.JPEG",
+        src: "/images/memoriesImages/firstVisit/a10.JPEG",
+        alt: "pic",
+        caption: "Pervert.",
+        videoSrc: "/images/memoriesImages/firstVisit/a10.mp4",
+      },
+      {
+        id: "/images/memoriesImages/firstVisit/a11.JPEG",
+        src: "/images/memoriesImages/firstVisit/a11.JPEG",
+        alt: "pic",
+        caption: "This reminds me of a certain painting.",
+      },
+      {
+        id: "/images/memoriesImages/firstVisit/a12.JPEG",
+        src: "/images/memoriesImages/firstVisit/a12.JPEG",
+        alt: "pic",
+        caption: "Guy in the painting is so tough.",
+      },
+      {
+        id: "/images/memoriesImages/firstVisit/a13.JPEG",
+        src: "/images/memoriesImages/firstVisit/a13.JPEG",
+        alt: "pic",
+        caption:
+          "Thanks for tying my shoe, and always taking care of me. You're the best! I also really love this picture.",
+      },
+      {
+        id: "/images/memoriesImages/firstVisit/a14.JPEG",
+        src: "/images/memoriesImages/firstVisit/a14.JPEG",
+        alt: "pic",
+        caption: "First date. Kinda nervous.",
+        videoSrc: "/images/memoriesImages/firstVisit/a14.mp4",
+      },
+      {
+        id: "/images/memoriesImages/firstVisit/a15.JPEG",
+        src: "/images/memoriesImages/firstVisit/a15.JPEG",
+        alt: "pic",
+        caption: "Got over my nerves. Now ready to eat!",
+        videoSrc: "/images/memoriesImages/firstVisit/a15.mp4",
+      },
+      {
+        id: "/images/memoriesImages/firstVisit/a16.JPEG",
+        src: "/images/memoriesImages/firstVisit/a16.JPEG",
+        alt: "pic",
+        caption: "Bruh why was this pizza HELLA good.",
+        videoSrc: "/images/memoriesImages/firstVisit/a16.mp4",
+      },
+      {
+        id: "/images/memoriesImages/firstVisit/a17.JPG",
+        src: "/images/memoriesImages/firstVisit/a17.JPG",
+        alt: "pic",
+        caption:
+          "This is the best picture of me that we have. Weren't even dating yet btw.",
+      },
+      {
+        id: "/images/memoriesImages/firstVisit/a18.JPEG",
+        src: "/images/memoriesImages/firstVisit/a18.JPEG",
+        alt: "pic",
+        caption: "Might be top three. You make a good thug.",
+      },
+      {
+        id: "/images/memoriesImages/firstVisit/a19.JPEG",
+        src: "/images/memoriesImages/firstVisit/a19.JPEG",
+        alt: "pic",
+        caption: "To the next visit!",
+        videoSrc: "/images/memoriesImages/firstVisit/a19.mp4",
+      },
+      {
+        id: "/images/memoriesImages/firstVisit/a20.jpg",
+        src: "/images/memoriesImages/firstVisit/a20.jpg",
+        alt: "pic",
+        caption:
+          "My little cutie. I love these pictures where we're touching somehow. More of this please!",
+      },
+    ],
+  },
+
+  {
+    id: "9",
+    title: "Second Visit",
+    eventCaption: "I love you",
+    images: [
+      {
+        id: "/images/memoriesImages/secondVisit/a1.JPG",
+        src: "/images/memoriesImages/secondVisit/a1.JPG",
+        alt: "pic",
+        caption: "Put some clothes on, freak.",
+      },
+      {
+        id: "/images/memoriesImages/secondVisit/a2.JPG",
+        src: "/images/memoriesImages/secondVisit/a2.JPG",
+        alt: "pic",
+        caption: "Burrito and wine night unmatched, can't lie.",
+      },
+      {
+        id: "/images/memoriesImages/secondVisit/a3.JPEG",
+        src: "/images/memoriesImages/secondVisit/a3.JPEG",
+        alt: "pic",
+        caption: "Second date! Tacos were some SHIT.",
+        videoSrc: "/images/memoriesImages/secondVisit/a3.mp4",
+      },
+      {
+        id: "/images/memoriesImages/secondVisit/a4.JPEG",
+        src: "/images/memoriesImages/secondVisit/a4.JPEG",
+        alt: "pic",
+        caption: "<3 <3 at least your food was good :(",
+        videoSrc: "/images/memoriesImages/secondVisit/a4.mp4",
+      },
+      {
+        id: "/images/memoriesImages/secondVisit/a5.JPEG",
+        src: "/images/memoriesImages/secondVisit/a5.JPEG",
+        alt: "pic",
+        caption: "Caroline always the first one out the door!",
+      },
+      {
+        id: "/images/memoriesImages/secondVisit/a6.JPEG",
+        src: "/images/memoriesImages/secondVisit/a6.JPEG",
+        alt: "pic",
+        caption: "Never happier than when I'm leaving.",
+        videoSrc: "/images/memoriesImages/secondVisit/a6.mp4",
+      },
+      {
+        id: "/images/memoriesImages/secondVisit/a7.JPG",
+        src: "/images/memoriesImages/secondVisit/a7.JPG",
+        alt: "pic",
+        caption: "This is super romantic. Kiss kiss.",
+      },
+      {
+        id: "/images/memoriesImages/secondVisit/a8.JPG",
+        src: "/images/memoriesImages/secondVisit/a8.JPG",
+        alt: "pic",
+        caption: "What a dress. I'm in love.",
+      },
+    ],
+  },
+
+  {
+    id: "11",
+    title: "Caroline to CP!",
+    eventCaption: "I love you",
+    images: [
+      {
+        id: "/images/memoriesImages/yourVisit/a1.JPEG",
+        src: "/images/memoriesImages/yourVisit/a1.JPEG",
+        alt: "pic",
+        caption: "fire close up.",
+      },
+      {
+        id: "/images/memoriesImages/yourVisit/a2.jpg",
+        src: "/images/memoriesImages/yourVisit/a2.jpg",
+        alt: "pic",
+        caption: "Wait why are you hella tough though.",
+        videoSrc: "/images/memoriesImages/yourVisit/a2.mp4",
+      },
+      {
+        id: "/images/memoriesImages/yourVisit/a3.jpg",
+        src: "/images/memoriesImages/yourVisit/a3.jpg",
+        alt: "pic",
+        caption: "More touchy pics please!",
+      },
+      {
+        id: "/images/memoriesImages/yourVisit/a4.JPEG",
+        src: "/images/memoriesImages/yourVisit/a4.JPEG",
+        alt: "pic",
+        caption: "You have big eyes, small face, I like.",
+        videoSrc: "/images/memoriesImages/yourVisit/a4.mp4",
+      },
+      {
+        id: "/images/memoriesImages/yourVisit/a5.JPEG",
+        src: "/images/memoriesImages/yourVisit/a5.JPEG",
+        alt: "pic",
+        caption: "My driver just has so much swag.",
+        videoSrc: "/images/memoriesImages/yourVisit/a5.mp4",
+      },
+      {
+        id: "/images/memoriesImages/yourVisit/a6.JPEG",
+        src: "/images/memoriesImages/yourVisit/a6.JPEG",
+        alt: "pic",
+        caption: "Why you geeked twin. You didn't throw up after this did you?",
+        videoSrc: "/images/memoriesImages/yourVisit/a6.mp4",
+      },
+      {
+        id: "/images/memoriesImages/yourVisit/a7.JPEG",
+        src: "/images/memoriesImages/yourVisit/a7.JPEG",
+        alt: "pic",
+        caption: "Do I look like a monkey guys?",
+        videoSrc: "/images/memoriesImages/yourVisit/a7.mp4",
+      },
+      {
+        id: "/images/memoriesImages/yourVisit/a8.jpg",
+        src: "/images/memoriesImages/yourVisit/a8.jpg",
+        alt: "pic",
+        caption: "Yucky.",
+        videoSrc: "/images/memoriesImages/yourVisit/a8.mp4",
+      },
+      {
+        id: "/images/memoriesImages/yourVisit/a9.jpg",
+        src: "/images/memoriesImages/yourVisit/a9.jpg",
+        alt: "pic",
+        caption: "Sisterly love.",
+        videoSrc: "/images/memoriesImages/yourVisit/a9.mp4",
+      },
+      {
+        id: "/images/memoriesImages/yourVisit/a10.JPEG",
+        src: "/images/memoriesImages/yourVisit/a10.JPEG",
+        alt: "pic",
+        caption: "Four monkeys and a ...",
+        videoSrc: "/images/memoriesImages/yourVisit/a10.mp4",
+      },
+      {
+        id: "/images/memoriesImages/yourVisit/a11.JPG",
+        src: "/images/memoriesImages/yourVisit/a11.JPG",
+        alt: "pic",
+        caption: "Look at that hip pop, she know she a baddie.",
+      },
+      {
+        id: "/images/memoriesImages/yourVisit/a12.JPG",
+        src: "/images/memoriesImages/yourVisit/a12.JPG",
+        alt: "pic",
+        caption: "Aww my little girl, you don't look sick at all!",
+      },
+      {
+        id: "/images/memoriesImages/yourVisit/a13.JPG",
+        src: "/images/memoriesImages/yourVisit/a13.JPG",
+        alt: "pic",
+        caption: "Running it back fs.",
+      },
+    ],
+  },
+
+  {
+    id: "12",
+    title: "Lunch is 12",
+    eventCaption: "I love you",
+    images: [
+      {
+        id: "/images/memoriesImages/young/a1.PNG",
+        src: "/images/memoriesImages/young/a1.PNG",
+        alt: "pic",
+        caption: "Lunch",
+      },
+      {
+        id: "/images/memoriesImages/young/a2.PNG",
+        src: "/images/memoriesImages/young/a2.PNG",
+        alt: "pic",
+        caption: "Breakfast",
+      },
+      {
+        id: "/images/memoriesImages/young/a3.jpg",
+        src: "/images/memoriesImages/young/a3.jpg",
+        alt: "pic",
+        caption: "Why did you do this.",
+      },
+    ],
+  },
+
+  {
+    id: "13",
+    title: "Selfies",
+    eventCaption: "I love you",
+    images: [
+      {
+        id: "/images/memoriesImages/selfies/a1.JPG",
+        src: "/images/memoriesImages/selfies/a1.JPG",
+        alt: "pic",
+        caption: "Why am I fine monkey shyt tho??",
+      },
+      {
+        id: "/images/memoriesImages/selfies/a2.jpg",
+        src: "/images/memoriesImages/selfies/a2.jpg",
+        alt: "pic",
+        caption:
+          "One of the first fit pics. Feel good FDOC. Thanks Kevin for the top!",
+      },
+      {
+        id: "/images/memoriesImages/selfies/a3.jpg",
+        src: "/images/memoriesImages/selfies/a3.jpg",
+        alt: "pic",
+        caption:
+          "Birth of Shiesty Adeeb. You can tell I have the eyes of a thug.",
+      },
+      {
+        id: "/images/memoriesImages/selfies/a4.JPEG",
+        src: "/images/memoriesImages/selfies/a4.JPEG",
+        alt: "pic",
+        caption:
+          "Don't really know what was happening here but you look sad. I remember when I first saw this I thought you were laying down on a couch. Also FUCK those headphones.",
+      },
+      {
+        id: "/images/memoriesImages/selfies/a5.JPEG",
+        src: "/images/memoriesImages/selfies/a5.JPEG",
+        alt: "pic",
+        caption:
+          "Yayyyy heart. I love you too. Even in sadness you make sure to reassure me!",
+      },
+      {
+        id: "/images/memoriesImages/selfies/a6.JPEG",
+        src: "/images/memoriesImages/selfies/a6.JPEG",
+        alt: "pic",
+        caption:
+          "Even though you look sad, I can't even be upset cause you're just so cute. Sorry.",
+      },
+      {
+        id: "/images/memoriesImages/selfies/a7.JPEG",
+        src: "/images/memoriesImages/selfies/a7.JPEG",
+        alt: "pic",
+        caption: "Shiesty Adeeb reveals himself as a young, nice, humble boy.",
+        videoSrc: "/images/memoriesImages/selfies/a7.mp4",
+      },
+      {
+        id: "/images/memoriesImages/selfies/a8.JPG",
+        src: "/images/memoriesImages/selfies/a8.JPG",
+        alt: "pic",
+        caption:
+          "This is really cute. I think you just look amazing in everything. Super tough. Thanks for the photo carry.",
+      },
+      {
+        id: "/images/memoriesImages/selfies/a9.JPG",
+        src: "/images/memoriesImages/selfies/a9.JPG",
+        alt: "pic",
+        caption:
+          "Wow, pupils are really small here. I looked it up and apparently that happens when you do heroin...",
+      },
+      {
+        id: "/images/memoriesImages/selfies/a10.jpg",
+        src: "/images/memoriesImages/selfies/a10.jpg",
+        alt: "pic",
+        caption: "More Sadoline. Curse Winter quarter.",
+      },
+      {
+        id: "/images/memoriesImages/selfies/a11.jpg",
+        src: "/images/memoriesImages/selfies/a11.jpg",
+        alt: "pic",
+        caption:
+          "I don't know what this is but I fw the view. Twin always looks good in red.",
+      },
+      {
+        id: "/images/memoriesImages/selfies/a12.JPEG",
+        src: "/images/memoriesImages/selfies/a12.JPEG",
+        alt: "pic",
+        caption:
+          "hair is EATINGGG!!! So glad you got bangs, took you from a 10 to lunch. Like literally the most beautiful girl I know. My dream girl fr.",
+      },
+      {
+        id: "/images/memoriesImages/selfies/a13.JPEG",
+        src: "/images/memoriesImages/selfies/a13.JPEG",
+        alt: "pic",
+        caption: "You may not think so, but this works too. For me at least.",
+      },
+      {
+        id: "/images/memoriesImages/selfies/a14.JPG",
+        src: "/images/memoriesImages/selfies/a14.JPG",
+        alt: "pic",
+        caption:
+          "Rare glimpse of Happyline in trying times. Face is hella symmetrical too.",
+      },
+      {
+        id: "/images/memoriesImages/selfies/a15.JPEG",
+        src: "/images/memoriesImages/selfies/a15.JPEG",
+        alt: "pic",
+        caption:
+          "My stem queen doing whatever it is she does in Formula. Keep up the good work! vroom vroom.",
+      },
+      {
+        id: "/images/memoriesImages/selfies/a16.JPG",
+        src: "/images/memoriesImages/selfies/a16.JPG",
+        alt: "pic",
+        caption: "Hi pretty.",
+      },
+      {
+        id: "/images/memoriesImages/selfies/a17.jpg",
+        src: "/images/memoriesImages/selfies/a17.jpg",
+        alt: "pic",
+        caption: "Caroline doing volunteer work for Make-A-Wish.",
+        videoSrc: "/images/memoriesImages/selfies/a17.mp4",
+      },
+      {
+        id: "/images/memoriesImages/selfies/a18.JPG",
+        src: "/images/memoriesImages/selfies/a18.JPG",
+        alt: "pic",
+        caption: "Caroline fucking up that napoleon ice cream.",
+      },
+      {
+        id: "/images/memoriesImages/selfies/a19.JPG",
+        src: "/images/memoriesImages/selfies/a19.JPG",
+        alt: "pic",
+        caption: "Do you know that in this photo, you are actually NAKED. lfg!",
+      },
+    ],
+  },
+  {
+    id: "14",
+    title: "Miscellaneous",
+    eventCaption: "I love you",
+    images: [
+      {
+        id: "/images/memoriesImages/random/a1.JPEG",
+        src: "/images/memoriesImages/random/a1.JPEG",
+        alt: "pic",
+        caption: "Let me LIVE please. So glad I went to the gym with you.",
+      },
+      {
+        id: "/images/memoriesImages/random/a2.jpg",
+        src: "/images/memoriesImages/random/a2.jpg",
+        alt: "pic",
+        caption: "Literally us.",
+        videoSrc: "/images/memoriesImages/random/a2.mp4",
+      },
+      {
+        id: "/images/memoriesImages/random/a3.jpg",
+        src: "/images/memoriesImages/random/a3.jpg",
+        alt: "pic",
+        caption: "Barry no diffs this guy.",
+      },
+      {
+        id: "/images/memoriesImages/random/a4.PNG",
+        src: "/images/memoriesImages/random/a4.PNG",
+        alt: "pic",
+        caption: "You hopefully.",
+      },
+      {
+        id: "/images/memoriesImages/random/a5.png",
+        src: "/images/memoriesImages/random/a5.png",
+        alt: "pic",
+        caption:
+          "I remember being really happy to see this. I looked at it a lot, thinking that I was definitely going to become your boyfriend soon.",
+      },
+      {
+        id: "/images/memoriesImages/random/a6.JPEG",
+        src: "/images/memoriesImages/random/a6.JPEG",
+        alt: "pic",
+        caption: "Rocky could never replace me. But he looks cute trying.",
+      },
+      {
+        id: "/images/memoriesImages/random/a7.png",
+        src: "/images/memoriesImages/random/a7.png",
+        alt: "pic",
+        caption: "Incredible stroke game from caroline.",
+        videoSrc: "/images/memoriesImages/random/a7.MP4",
+      },
+      {
+        id: "/images/memoriesImages/random/a8.PNG",
+        src: "/images/memoriesImages/random/a8.PNG",
+        alt: "pic",
+        caption:
+          "I'm just too nice in the dms. I think I kept texting you on insta anyway. I just love reels!",
+      },
+      {
+        id: "/images/memoriesImages/random/a9.png",
+        src: "/images/memoriesImages/random/a9.png",
+        alt: "pic",
+        caption:
+          "Why his lips look like a bootyhole. Also fuck you. Whistling is not tough.",
+      },
+      {
+        id: "/images/memoriesImages/random/a10.JPEG",
+        src: "/images/memoriesImages/random/a10.JPEG",
+        alt: "pic",
+        caption:
+          "The last time these two ever hung out. Poor Daisy, men just can't stand her.",
+      },
+      {
+        id: "/images/memoriesImages/random/a11.JPG",
+        src: "/images/memoriesImages/random/a11.JPG",
+        alt: "pic",
+        caption:
+          "Taken hours before I asked you out. We really should not leave the house looking like this.",
+      },
+      {
+        id: "/images/memoriesImages/random/a12.jpg",
+        src: "/images/memoriesImages/random/a12.jpg",
+        alt: "pic",
+        caption:
+          "You sent me this today, and I just could not stop smiling watching it. Twin, everything you do is just too cute. Keep being you, alright?",
+        videoSrc: "/images/memoriesImages/random/a12.mp4",
+      },
+    ],
+  },
+
+  {
+    id: "15",
     title: "Facetime Photos",
     eventCaption: "I love you",
     images: [
