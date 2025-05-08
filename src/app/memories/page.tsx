@@ -80,7 +80,7 @@ export default function MemoriesPage() {
                 {selectedEvent.eventCaption}
               </p>
             </div>
-            <div className="flex flex-wrap justify-center items-center gap-10">
+            <div className="flex flex-wrap justify-center items-center gap-8">
               {selectedEvent.images.map((img) => (
                 <img
                   key={img.id}
@@ -105,22 +105,37 @@ export default function MemoriesPage() {
         return (
           <motion.div
             key="imageFocus"
-            className="fixed inset-0 bg-black/50 flex flex-col items-center justify-center p-4 gap-8"
+            className="fixed inset-0 bg-black/50 flex flex-col items-center justify-center p-4 gap-4"
             variants={viewFadeVariants}
             initial="hidden"
             animate="visible"
             exit="exit"
           >
-            <div className="relative w-full max-w-4xl h-[70vh]">
-              <Image
-                src={focusedImage.src}
-                alt={focusedImage.alt}
-                fill
-                style={{ objectFit: "contain" }}
-                priority
-                sizes="90vw"
-                className="rounded-lg"
-              />
+            <div className="relative w-full max-w-4xl h-[70vh] mt-10">
+              {focusedImage.videoSrc ? (
+                <video
+                  key={focusedImage.videoSrc}
+                  src={focusedImage.videoSrc}
+                  className="w-full h-full object-contain rounded-lg"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  poster={focusedImage.src}
+                >
+                  Your browser does not support the video tag.
+                </video>
+              ) : (
+                <Image
+                  src={focusedImage.src}
+                  alt={focusedImage.alt}
+                  fill
+                  style={{ objectFit: "contain" }}
+                  priority
+                  sizes="90vw"
+                  className="rounded-lg"
+                />
+              )}
             </div>
             <p className="text-3xl text-[#F9F5EF] [text-shadow:0px_1px_2px_rgba(0,0,0,0.1)] font-semibold break-words">
               {focusedImage.caption}
