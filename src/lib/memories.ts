@@ -18,7 +18,8 @@ export const eventsData: MemoryEvent[] = [
   {
     id: "1",
     title: "Going Out Together",
-    eventCaption: "I love you",
+    eventCaption:
+      "I'll never forget going out with you that December. When I tell people how we met, this is the day I talk about. I never clicked with someone like I did with you that night, and I'm so glad I did. It was so stupid too. Just watching reels in a sorority house basement, being stupid, and occasionally staring at each other. It was the night we fell in love.",
     images: [
       {
         id: "/images/memoriesImages/goingOut/a1.jpg",
@@ -57,7 +58,7 @@ export const eventsData: MemoryEvent[] = [
         id: "/images/memoriesImages/goingOut/a6.JPEG",
         src: "/images/memoriesImages/goingOut/a6.JPEG",
         alt: "pic",
-        caption: "So colorful. Daisy needs to get her real man (Ostap) though.",
+        caption: "So colorful. Daisy needs to get her real man (Ostap).",
         videoSrc: "/images/memoriesImages/goingOut/a6.mp4",
       },
       {
@@ -90,7 +91,8 @@ export const eventsData: MemoryEvent[] = [
   {
     id: "2",
     title: "Hometown Fun",
-    eventCaption: "",
+    eventCaption:
+      "I can safely say that was the best winter break I've ever had. Being with someone special during the holidays was everything I imagined it was and more. Even after you left, I still had fun calling you everyday while I went about my day to day life. I can't wait for the summer because every second with you is a blast.",
     images: [
       {
         id: "/images/memoriesImages/hometown/b1.JPEG",
@@ -210,7 +212,8 @@ export const eventsData: MemoryEvent[] = [
   {
     id: "10",
     title: "Tattoo",
-    eventCaption: "I love you",
+    eventCaption:
+      "I was really happy when you asked me to come with you while you got your tattoo. You were really forward when it came to hanging out with me, and it took a lot of pressure off of me. I was never unsure about whether you wanted to spend time with me, and was never left wondering if you were having as much fun as I was while we were together. Watching you get a tattoo was super fun, and shout out to the guy for giving me aux.",
     images: [
       {
         id: "/images/memoriesImages/tattoo/a1.jpg",
@@ -244,7 +247,7 @@ export const eventsData: MemoryEvent[] = [
         id: "/images/memoriesImages/tattoo/a5.jpg",
         src: "/images/memoriesImages/tattoo/a5.jpg",
         alt: "pic",
-        caption: "Tattoo artist was such a stand up guy wasn't he.",
+        caption: "Smile!",
         videoSrc: "/images/memoriesImages/tattoo/a5.mp4",
       },
       {
@@ -267,7 +270,8 @@ export const eventsData: MemoryEvent[] = [
   {
     id: "3",
     title: "Parkside Visit",
-    eventCaption: "I love you",
+    eventCaption:
+      "I look back on this day fondly now. I only remember the good stuff to be honest. It was really fun spending a day with you, and I think it was representative of what our breaks would be like if weren't for our (your) parents. Just spending the day together, enjoying each other's presence. I think days like this is what love is, being happy doing anything together.",
     images: [
       {
         id: "/images/memoriesImages/apartment/c1.JPEG",
@@ -315,7 +319,8 @@ export const eventsData: MemoryEvent[] = [
   {
     id: "4",
     title: "Christmas",
-    eventCaption: "I love you",
+    eventCaption:
+      "My first Christmas with a girl and it was incredible. Next year we are definitely making plans on Christmas Eve, when everything isn't closed, but we made the best out of what we had. I was so impressed by your gift, the beginning of a long run of one upping me, and love the amount of effort you put into everything you do. I love you.",
     images: [
       {
         id: "/images/memoriesImages/christmas/d1.JPEG",
@@ -389,7 +394,8 @@ export const eventsData: MemoryEvent[] = [
   {
     id: "5",
     title: "New Year's Eve",
-    eventCaption: "I love you",
+    eventCaption:
+      "Starting off the year right! I had a lot of fun going out too. Drinking with you is always a treat, seeing you act all silly and clingly, its the most adorable thing in the world. Homemade hotpot also hit. Loved the glasses too, they really made the night.",
     images: [
       {
         id: "/images/memoriesImages/nye/a1.JPEG",
@@ -460,7 +466,8 @@ export const eventsData: MemoryEvent[] = [
   {
     id: "6",
     title: "Music",
-    eventCaption: "I love you",
+    eventCaption:
+      "A small little reminder that we are compatible in every way.",
     images: [
       {
         id: "/images/memoriesImages/music/a1.PNG",
@@ -481,7 +488,8 @@ export const eventsData: MemoryEvent[] = [
   {
     id: "7",
     title: "Partyaline",
-    eventCaption: "I love you",
+    eventCaption:
+      "Seeing you go back was hard, but man did you look good when you went out. It made me a little jealous, that everyone got to see just how beautiful you are, but you got to let a baddie be a baddie.",
     images: [
       {
         id: "/images/memoriesImages/partyaline/a1.JPEG",
@@ -592,7 +600,8 @@ export const eventsData: MemoryEvent[] = [
   {
     id: "8",
     title: "First Visit",
-    eventCaption: "I love you",
+    eventCaption:
+      "Looking back, it was a little crazy that I was willing to fly out to see you, but still not ask you out. I had so much fun visiting. Evanston and Chicago just felt so foreign to me, it was like we were exploring a different country. I really liked walking while holding hands, showing the world that you were mine.",
     images: [
       {
         id: "/images/memoriesImages/firstVisit/a1.JPEG",
@@ -737,7 +746,8 @@ export const eventsData: MemoryEvent[] = [
   {
     id: "9",
     title: "Second Visit",
-    eventCaption: "I love you",
+    eventCaption:
+      "Seeing you after nearly 10 hours of delay after delay is actually what I imagine entering heaven is like. As soon as I put all my stuff down, I forgot about how long of a day it had been, and everything in my mind became about you. It was worth every penny, and showed me that long distance didn't matter as long as we saw each other eventually.",
     images: [
       {
         id: "/images/memoriesImages/secondVisit/a1.JPG",
