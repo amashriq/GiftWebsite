@@ -58,7 +58,7 @@ export const eventsData: MemoryEvent[] = [
         src: "/images/memoriesImages/goingOut/a6.JPEG",
         alt: "pic",
         caption: "So colorful. Daisy needs to get her real man (Ostap) though.",
-        videoSrc: "images/memoriesImages/goingOut/a6.mov",
+        videoSrc: "/images/memoriesImages/goingOut/a6.mov",
       },
       {
         id: "/images/memoriesImages/goingOut/a7.jpg",
@@ -109,21 +109,21 @@ export const eventsData: MemoryEvent[] = [
         src: "/images/memoriesImages/hometown/b3.JPEG",
         alt: "pic",
         caption: "My real gym crush.",
-        videoSrc: "images/memoriesImages/hometown/b3.mov",
+        videoSrc: "/images/memoriesImages/hometown/b3.mov",
       },
       {
         id: "/images/memoriesImages/hometown/b4.JPEG",
         src: "/images/memoriesImages/hometown/b4.JPEG",
         alt: "pic",
         caption: "Picking me up at 9am, this is why Baba loves you.",
-        videoSrc: "images/memoriesImages/hometown/b4.mov",
+        videoSrc: "/images/memoriesImages/hometown/b4.mov",
       },
       {
         id: "/images/memoriesImages/hometown/b5.JPEG",
         src: "/images/memoriesImages/hometown/b5.JPEG",
         alt: "pic",
         caption: "Pristine form, breathing, speed. Really good rep twin.",
-        videoSrc: "images/memoriesImages/hometown/b5.mov",
+        videoSrc: "/images/memoriesImages/hometown/b5.mov",
       },
       {
         id: "/images/memoriesImages/hometown/b6.JPEG",
@@ -131,7 +131,7 @@ export const eventsData: MemoryEvent[] = [
         alt: "pic",
         caption:
           "Look at these screenagers man. I just know they hate Indians.",
-        videoSrc: "images/memoriesImages/hometown/b6.mov",
+        videoSrc: "/images/memoriesImages/hometown/b6.mov",
       },
       {
         id: "/images/memoriesImages/hometown/b7.JPEG",
@@ -139,7 +139,7 @@ export const eventsData: MemoryEvent[] = [
         alt: "pic",
         caption:
           "Woah red shoes. You're like Dorothy. Drip while picking up dog poop.",
-        videoSrc: "images/memoriesImages/hometown/b7.mov",
+        videoSrc: "/images/memoriesImages/hometown/b7.mov",
       },
       {
         id: "/images/memoriesImages/hometown/b8.JPEG",
@@ -147,14 +147,14 @@ export const eventsData: MemoryEvent[] = [
         alt: "pic",
         caption:
           "Might be the most fun I've ever had grocery shopping. Can we do this for the rest of our lives please?",
-        videoSrc: "images/memoriesImages/hometown/b8.mov",
+        videoSrc: "/images/memoriesImages/hometown/b8.mov",
       },
       {
         id: "/images/memoriesImages/hometown/b9.JPEG",
         src: "/images/memoriesImages/hometown/b9.JPEG",
         alt: "pic",
         caption: "My Playa Queen! Can't wait till you become Playa Manager.",
-        videoSrc: "images/memoriesImages/hometown/b9.mov",
+        videoSrc: "/images/memoriesImages/hometown/b9.mov",
       },
       {
         id: "/images/memoriesImages/hometown/b10.PNG",
