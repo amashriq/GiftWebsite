@@ -103,6 +103,7 @@ export const eventsData: MemoryEvent[] = [
         src: "/images/memoriesImages/hometown/b2.JPEG",
         alt: "pic",
         caption: "Super lit gift, heard it was hella good too.",
+        videoSrc: "/images/memoriesImages/hometown/b2.mp4", // GET RID OF IF NEED SPACE
       },
       {
         id: "/images/memoriesImages/hometown/b3.JPEG",
