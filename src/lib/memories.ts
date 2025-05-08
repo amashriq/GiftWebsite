@@ -21,28 +21,28 @@ export const eventsData: MemoryEvent[] = [
     eventCaption: "I love you",
     images: [
       {
-        id: "/images/memoriesImages/goingOut/a1.JPEG",
-        src: "/images/memoriesImages/goingOut/a1.JPEG",
+        id: "/images/memoriesImages/goingOut/a1.jpg",
+        src: "/images/memoriesImages/goingOut/a1.jpg",
         alt: "pic",
         caption: "Loved my girl since the jump.",
       },
       {
-        id: "/images/memoriesImages/goingOut/a2.JPEG",
-        src: "/images/memoriesImages/goingOut/a2.JPEG",
+        id: "/images/memoriesImages/goingOut/a2.jpg",
+        src: "/images/memoriesImages/goingOut/a2.jpg",
         alt: "pic",
         caption:
           "Me and twin and months apart, and she has a hickey on her tit. Smh my head.",
       },
       {
-        id: "/images/memoriesImages/goingOut/a3.JPG",
-        src: "/images/memoriesImages/goingOut/a3.JPG",
+        id: "/images/memoriesImages/goingOut/a3.jpg",
+        src: "/images/memoriesImages/goingOut/a3.jpg",
         alt: "pic",
         caption:
           "Yeah I think something is just wrong with me tbh. I don't know why I look like this.",
       },
       {
-        id: "/images/memoriesImages/goingOut/a4.JPG",
-        src: "/images/memoriesImages/goingOut/a4.JPG",
+        id: "/images/memoriesImages/goingOut/a4.jpg",
+        src: "/images/memoriesImages/goingOut/a4.jpg",
         alt: "pic",
         caption: "The way he sits there is just so tough.",
       },
