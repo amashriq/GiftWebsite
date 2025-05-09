@@ -171,11 +171,11 @@ export default function MemoriesPage() {
               </h2>
               <p className="text-3xl text-[#4B4B4B] [text-shadow:0px_1px_2px_rgba(0,0,0,0.1)] font-semibold break-words">
                 Each picture is a different event/category, filled with more
-                pictures of us. If you click on an image in one, you'll get to
-                see a close up, and a personal caption I wrote. Each image has a
-                unique caption, and there are nearly 200 to look at! I hope you
-                enjoy going through all of them and have as much fun as I did
-                revisiting the past three months.
+                pictures of us. If you click on an image in one, you&apos;ll get
+                to see a close up, and a personal caption I wrote. Each image
+                has a unique caption, and there are nearly 200 to look at! I
+                hope you enjoy going through all of them and have as much fun as
+                I did revisiting the past three months.
               </p>
             </div>
             <div className="flex flex-wrap justify-center items-center gap-10">
