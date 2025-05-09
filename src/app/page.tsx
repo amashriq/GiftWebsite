@@ -32,12 +32,12 @@ export default function Home() {
           Happy Birthday Caroline!
         </h2>
         <p className="text-3xl text-[#4B4B4B] [text-shadow:0px_1px_2px_rgba(0,0,0,0.1)] font-semibold break-words">
-          After many, many hours, I'm happy to present to you your very own
+          After many, many hours, I&apos;m happy to present to you your very own
           website! There are three main activities, and perhaps more in the
           future. Start by clicking one of the three buttons below, and when
-          you're finished, click the house Icon that will appear in the top left
-          to go back to this screen. I hope you enjoy, and as always, I love
-          you.
+          you&apos;re finished, click the house Icon that will appear in the top
+          left to go back to this screen. I hope you enjoy, and as always, I
+          love you.
         </p>
       </div>
       <div
