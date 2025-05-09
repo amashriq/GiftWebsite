@@ -806,7 +806,8 @@ export const eventsData: MemoryEvent[] = [
   {
     id: "11",
     title: "Caroline to CP!",
-    eventCaption: "I love you",
+    eventCaption:
+      "This was my favorite visit so far. I wish you could know how happy I was when you came to surprise me during class, even if I ruined it. I feel like my emotions show on my face, so if you're every wandering what I'm feeling, just take a look. Going out together was fun even if it only lasted like 10 minutes, and I'm always happy to take care of you. The DC trip felt like our first real date, and while it was fun, I was much happier with the tournament. Having you next to me while I did something boring made it infinitely better and just reminded me how valuable you are to me. Please visit more often!",
     images: [
       {
         id: "/images/memoriesImages/yourVisit/a1.JPEG",
@@ -900,7 +901,7 @@ export const eventsData: MemoryEvent[] = [
   {
     id: "12",
     title: "Lunch is 12",
-    eventCaption: "I love you",
+    eventCaption: "Thank god you found this funny.",
     images: [
       {
         id: "/images/memoriesImages/young/a1.PNG",
@@ -926,7 +927,8 @@ export const eventsData: MemoryEvent[] = [
   {
     id: "13",
     title: "Selfies",
-    eventCaption: "I love you",
+    eventCaption:
+      "I saw a video where a guy was talking about how even though he has a ton of pictures of his cat, he still asks his girlfriend to send more while he's away, and I totally understand why. I want to see you all the time, whatever it is you're doing at the moment. How you look, what you're feeling, the environment you're in, I want to see it all, and these pictures help with that. I can't help but smile at each one.",
     images: [
       {
         id: "/images/memoriesImages/selfies/a1.JPG",
@@ -1060,7 +1062,8 @@ export const eventsData: MemoryEvent[] = [
   {
     id: "14",
     title: "Miscellaneous",
-    eventCaption: "I love you",
+    eventCaption:
+      "These are all the leftovers, stuff I didn't think fit into any one category. I thought they deserved a place on this website.",
     images: [
       {
         id: "/images/memoriesImages/random/a1.JPEG",
@@ -1149,7 +1152,8 @@ export const eventsData: MemoryEvent[] = [
   {
     id: "15",
     title: "Facetime Photos",
-    eventCaption: "I love you",
+    eventCaption:
+      "The biggest group of pictures by far. We have spent more hours on facetime than actually together, so it's no wonder I have so many. I think we definitely facetime more than the average long distance couple, but I also think we're more in love than the average couple, and our relationship is more perfect than others. No matter when I tap the photo button, I'll always get something worth looking at later. Making this was the first time I went through all my photos since we met, and there were just so many amazing memories that I nearly forgot some of them. To many more, I love you Caroline",
     images: [
       {
         id: "/images/memoriesImages/ftPhotos/a1.JPEG",

@@ -6,7 +6,7 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { eventsData } from "@/lib/memories";
 import ActionButton from "@/components/Buttons/ActionButton";
-import GameIcon from "@/components/icons/GameIcon";
+import GoBackIcon from "@/components/icons/GoBackIcon";
 
 type ViewMode = "events" | "eventImages" | "imageFocus";
 
@@ -61,7 +61,7 @@ export default function MemoriesPage() {
         return (
           <motion.div
             key="eventImages"
-            className="flex flex-col justify-center items-center w-full min-h-[95vh] p-8 gap-4"
+            className="flex flex-col justify-center items-center w-full min-h-[95vh] p-8"
             variants={viewFadeVariants}
             initial="hidden"
             animate="visible"
@@ -93,9 +93,9 @@ export default function MemoriesPage() {
             </div>
             <ActionButton
               onClick={handleBackToEvents}
-              icon={<GameIcon className="w-20 h-12" strokeWidth="2" />}
+              icon={<GoBackIcon className="w-20 h-12" strokeWidth="2" />}
               aria-label="Back to Events"
-              className={`bg-[#B78D6A] border-2 border-[#A57F5F]`}
+              className={`bg-[#FFF8F0]`}
             />
           </motion.div>
         );
@@ -142,9 +142,9 @@ export default function MemoriesPage() {
             </p>
             <ActionButton
               onClick={handleBackToImages}
-              icon={<GameIcon className="w-20 h-12" strokeWidth="2" />}
+              icon={<GoBackIcon className="w-20 h-12" strokeWidth="2" />}
               aria-label="Back to Images"
-              className={`bg-[#B78D6A] border-2 border-[#A57F5F]`}
+              className={`bg-[#8E9B90]`}
             />
           </motion.div>
         );
@@ -167,31 +167,36 @@ export default function MemoriesPage() {
         max-w-[800px]`}
             >
               <h2 className="text-5xl text-[#4B4B4B] [text-shadow:0px_1px_2px_rgba(0,0,0,0.1)] font-bold">
-                hi
+                Memories
               </h2>
               <p className="text-3xl text-[#4B4B4B] [text-shadow:0px_1px_2px_rgba(0,0,0,0.1)] font-semibold break-words">
-                hi
+                Each picture is a different event/category, filled with more
+                pictures of us. If you click on an image in one, you'll get to
+                see a close up, and a personal caption I wrote. Each image has a
+                unique caption, and there are nearly 200 to look at! I hope you
+                enjoy going through all of them and have as much fun as I did
+                revisiting the past three months.
               </p>
             </div>
             <div className="flex flex-wrap justify-center items-center gap-10">
               {eventsData.map((event) => {
                 const iconDisplaySrc = event.iconSrc || event.images?.[0]?.src;
                 return (
-                  <ActionButton
+                  <Image
+                    src={iconDisplaySrc}
                     key={event.id}
                     onClick={() => handleEventSelect(event.id)}
-                    aria-label={event.title}
-                    icon={
-                      <Image
-                        src={iconDisplaySrc}
-                        alt=""
-                        width={40}
-                        height={40}
-                        className="rounded-md"
-                        style={{ objectFit: "cover" }}
-                      />
-                    }
-                    className="!w-[25vh] !h-[25vh] bg-[#B78D6A] border-2 border-[#A57F5F]"
+                    alt="event"
+                    width={300}
+                    height={300}
+                    className="rounded-xl
+        shadow-md 
+        cursor-pointer 
+        duration-300 ease-in-out 
+        transform
+        transition
+        hover:brightness-80 hover:shadow-lg hover:scale-105"
+                    style={{ objectFit: "contain" }}
                   />
                 );
               })}{" "}
