@@ -807,7 +807,7 @@ export const eventsData: MemoryEvent[] = [
     id: "11",
     title: "Caroline to CP!",
     eventCaption:
-      "This was my favorite visit so far. I wish you could know how happy I was when you came to surprise me during class, even if I ruined it. I feel like my emotions show on my face, so if you're every wandering what I'm feeling, just take a look. Going out together was fun even if it only lasted like 10 minutes, and I'm always happy to take care of you. The DC trip felt like our first real date, and while it was fun, I was much happier with the tournament. Having you next to me while I did something boring made it infinitely better and just reminded me how valuable you are to me. Please visit more often!",
+      "This was my favorite visit so far. I wish you could know how happy I was when you came to surprise me during class, even if I ruined it. I feel like my emotions show on my face, so if you're ever wondering what I'm feeling, just take a look. Going out together was fun even if it only lasted like 10 minutes, and I'm always happy to take care of you. The DC trip felt like our first real date, and while it was fun, I was much happier with the tournament. Having you next to me while I did something boring made it infinitely better and just reminded me how valuable you are to me. Please visit more often!",
     images: [
       {
         id: "/images/memoriesImages/yourVisit/a1.JPEG",

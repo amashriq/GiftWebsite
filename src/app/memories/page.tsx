@@ -61,7 +61,7 @@ export default function MemoriesPage() {
         return (
           <motion.div
             key="eventImages"
-            className="flex flex-col justify-center items-center w-full min-h-[95vh] p-8"
+            className="flex flex-col justify-center items-center w-full min-h-[95vh] p-8 gap-4"
             variants={viewFadeVariants}
             initial="hidden"
             animate="visible"
@@ -119,7 +119,6 @@ export default function MemoriesPage() {
                   className="w-full h-full object-contain rounded-lg"
                   autoPlay
                   loop
-                  muted
                   playsInline
                   poster={focusedImage.src}
                 >
